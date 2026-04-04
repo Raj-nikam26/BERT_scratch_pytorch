@@ -1,0 +1,26 @@
+{
+  "student_config": {
+    "vocab_size": 30522,
+    "d_model": 384,
+    "num_layers": 4,
+    "n_heads": 6,
+    "max_position_embeddings": 128,
+    "type_vocab_size": 2
+  },
+  "teacher_config": {
+    "vocab_size": 30522,
+    "d_model": 768,
+    "num_layers": 12,
+    "n_heads": 12,
+    "max_position_embeddings": 128,
+    "type_vocab_size": 2
+  },
+  "training_config": {
+    "num_epochs": 2,
+    "batch_size": 16,
+    "learning_rate": 0.0002,
+    "max_len": 128,
+    "temperature": 3.0,
+    "alpha": 0.7
+  }
+}
